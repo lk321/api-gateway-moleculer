@@ -1,0 +1,31 @@
+{
+    "name": "api-gateway-moleculer",
+    "version": "1.0.0",
+    "description": "API Gateway: microservice with nodejs and mongodb",
+    "scripts": {
+        "dev": "moleculer-runner --repl --hot services",
+        "start": "moleculer-runner services",
+        "lint": "eslint services"
+    },
+    "keywords": [
+        "microservices",
+        "moleculer"
+    ],
+    "author": "",
+    "devDependencies": {
+        "eslint": "^7.15.0",
+        "moleculer-repl": "^0.6.4"
+    },
+    "dependencies": {
+        "compression": "^1.7.4",
+        "moleculer": "^0.14.11",
+        "moleculer-db": "^0.8.11",
+        "moleculer-db-adapter-mongo": "^0.4.10",
+        "moleculer-web": "^0.9.1"
+    },
+    "engines": {
+        "node": ">= 6.x.x"
+    },
+    "main": "index.js",
+    "license": "MIT"
+}
