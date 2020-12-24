@@ -1,4 +1,4 @@
-const MongoDbService = require("../mixins/db.mongo.mixin")
+const MongoDbService = require("./mixins/db.mongo.mixin")
 
 module.exports = {
     name: "products",
