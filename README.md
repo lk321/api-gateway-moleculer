@@ -4,17 +4,30 @@ API Gateway: microservice with nodejs and mongodb
 
 ## Installation
 
-This is a [Node.js](https://nodejs.org/) module available through the 
-[npm registry](https://www.npmjs.com/). It can be installed using the 
-[`npm`](https://docs.npmjs.com/getting-started/installing-npm-packages-locally)
-or 
-[`yarn`](https://yarnpkg.com/en/)
-command line tools.
-
+### Gateway
 ```sh
-npm install api-gateway-moleculer --save
+$ cd gateway && yarn install && yarn dev
 ```
 
+### Node1 - Users
+```sh
+$ cd node1 && yarn install && yarn dev
+```
+
+### Node2 - Products
+```sh
+$ cd node2 && yarn install && yarn dev
+```
+
+### Import data to mongodb database (data folder)
+
+Import with [MongoCompass](https://www.mongodb.com/products/compass) is too easy ;*
+
+
+## APIs
+
+- [Products with population](http://localhost:3000/api/products?populate=author)
+- [API Postman 🤖](https://www.postman.com/collections/b7663f45388ec6ffa193)
 ## Dependencies
 
 - [compression](https://ghub.io/compression): Node.js compression middleware
@@ -25,7 +38,6 @@ npm install api-gateway-moleculer --save
 
 ## Dev Dependencies
 
-- [eslint](https://ghub.io/eslint): An AST-based pattern checker for JavaScript.
 - [moleculer-repl](https://ghub.io/moleculer-repl): REPL module for Moleculer
 
 ## License

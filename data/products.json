@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "5fd2dbaade2f162f73bcafd5"
+  },
+  "name": "Samsung Galaxy S8",
+  "category": "phones",
+  "price": 999.99,
+  "quantity": 10,
+  "author": {
+    "$oid": "5fd53d0333a0620484ae02c7"
+  }
+},{
+  "_id": {
+    "$oid": "5fd2dcacde2f162f73bcafd6"
+  },
+  "name": "Samsung Galaxy S10",
+  "category": "phones",
+  "price": 756.99,
+  "quantity": 10,
+  "author": {
+    "$oid": "5fd53d0333a0620484ae02c7"
+  }
+},{
+  "_id": {
+    "$oid": "5fd2dcb3de2f162f73bcafd7"
+  },
+  "name": "Samsung Galaxy S20",
+  "category": "phones",
+  "price": 756.99,
+  "quantity": 10
+},{
+  "_id": {
+    "$oid": "5fd2e0fe8b72d8304356429a"
+  },
+  "name": "Samsung Galaxy S40",
+  "category": "phones",
+  "price": 1256.99,
+  "quantity": 11
+},{
+  "_id": {
+    "$oid": "5fd30bfd215d8c36490e99ea"
+  },
+  "name": "Samsung Galaxy S9",
+  "category": "phones",
+  "price": 456.99,
+  "quantity": 4
+},{
+  "_id": {
+    "$oid": "5fd3238c14fc553d309ceddb"
+  },
+  "name": "Samsung Galaxy S6",
+  "category": "phones",
+  "price": 356.99,
+  "quantity": 2
+}]
